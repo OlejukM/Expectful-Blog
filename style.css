@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: GothamRounded-Medium;
-    src: url("/fonts/Gotham Rounded/GothamRounded-Medium.otf");
-}
-
 body {
     font-family: sans-serif;
 }
@@ -43,9 +38,14 @@ li {
     list-style: none;
 }
 
-li>a {
+header li>a {
     text-decoration: none;
     color: #85776f;
+}
+
+#log-in-color {
+    text-decoration: none;
+    color: #f9b37a;
 }
 
 #logo {
@@ -73,10 +73,6 @@ li>a {
     border-radius: 8px;
     color: #ffffff;
     cursor: pointer;
-}
-
-li:last-child {
-    background-color: lime;
 }
 
 #head-text {
@@ -108,7 +104,6 @@ li:last-child {
 
 .img-margin {
     color: #be9656;
-    /*margin-left: 20px;*/
     margin-right: 145px;
 }
 
@@ -241,7 +236,7 @@ hr {
     color: #ffffff;
 }
 
-#stay-up-to-date{
+#stay-up-to-date {
     display: flex;
     flex-direction: column;
     width: 460px;
@@ -251,21 +246,21 @@ hr {
     margin-bottom: 65px;
 }
 
-#env{
+#env {
     margin: 65px 0 35px 0;
 }
 
-#stay-up{
+#stay-up {
     font-size: 24px;
     margin-bottom: 10px;
     color: #85776f;
 }
 
-#stay-up-p{
+#stay-up-p {
     color: #85776f;
 }
 
-#email-address{
+#email-address {
     margin-top: 35px;
     width: 220px;
     height: 65px;
@@ -274,17 +269,16 @@ hr {
     padding-left: 30px;
     color: #d8d1ca;
     font-size: 14px;
-
 }
 
-#stay-up-no-spam{
+#stay-up-no-spam {
     margin-top: 20px;
     color: #b7ada5;
     font-size: 10px;
     font-weight: bold;
 }
 
-#btn-send{
+#btn-send {
     width: 80px;
     height: 65px;
     background-color: #8ab9bd;
@@ -292,4 +286,59 @@ hr {
     border-radius: 8px;
     color: #ffffff;
     margin-left: -4px;
+}
+
+footer {
+    background-color: #85776f;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#copyright {
+    width: 220px;
+    margin-top: 69px;
+}
+
+.copyright-p-text {
+    color: #ffffff;
+    margin-top: 24px;
+}
+
+.copyright-p-text:last-child {
+    margin-bottom: 55px;
+}
+
+.query {
+    margin-top: 69px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 44px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.query h4 {
+    color: #ffffff;
+}
+
+.text-inside-footer-query {
+    margin-top: 55px;
+    font-size: 10px;
+    line-height: 3;
+    font-weight: bold;
+}
+
+.footer-justify {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-click-color {
+    color: #f9b37a;
 }
